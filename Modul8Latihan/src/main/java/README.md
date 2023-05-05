@@ -1,41 +1,47 @@
-Mencetak Argument :
+Mencetak Argument
 
-Program ini merupakan contoh penggunaan argumen command line pada Java. Program ini akan menerima argumen dari user melalui command line dan mencetak semua argumen yang diberikan ke layar.
+Deskripsi
+Program ini adalah contoh sederhana bagaimana cara mencetak argumen yang diberikan oleh user melalui command line menggunakan bahasa pemrograman Java.
 
-Cara Penggunaan 
-Untuk menggunakan program ini, ikuti langkah-langkah berikut:
+Cara Kerja
+Program ini akan mengeksekusi method main() yang akan mengambil argumen yang diberikan oleh user melalui command line dalam bentuk array args. Selanjutnya, program akan melakukan loop untuk setiap argumen yang diberikan dan mencetaknya ke layar dengan menggunakan method System.out.println().
 
-1. Buka command prompt atau terminal di komputer Anda.
-2. Masuk ke direktori di mana file MencetakArgument.java disimpan.
-3. Compile program dengan menjalankan perintah javac MencetakArgument.java.
-4. Jalankan program dengan menjalankan perintah java MencetakArgument <argumen>, di mana <argumen> adalah argumen yang ingin Anda berikan kepada program. Anda bisa memberikan lebih dari satu argumen dengan memisahkan setiap argumen dengan spasi.
-5. Program akan mencetak semua argumen yang diberikan ke layar.
+Cara Penggunaan
+1. Pastikan sudah terinstall Java Development Kit (JDK) pada komputer Anda.
+2. Simpan kode program di atas dalam sebuah file dengan ekstensi .java (misalnya MencetakArgument.java).
+3. Buka terminal/command prompt dan masuk ke direktori tempat file program disimpan.
+4. Compile program menggunakan perintah javac MencetakArgument.java.
+5. Jalankan program dengan perintah java MencetakArgument argumen1 argumen2 argumen3 ....
+6. Argumen yang diberikan akan dicetak ke layar.
+
+Lisensi
+Program ini dibuat oleh [nama Anda] dan dibagikan secara gratis dan terbuka di bawah lisensi [nama lisensi]. Anda diperbolehkan untuk menggunakan, mengubah, 
+dan mendistribusikan program ini dengan syarat menyertakan kredit kepada [nama Anda] sebagai pembuat asli program ini. Program ini disediakan tanpa jaminan apapun dan pengguna bertanggung jawab penuh atas penggunaan program ini.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+Operasi Aritmatik
+
+Deskripsi
+Program ini adalah contoh sederhana bagaimana melakukan operasi aritmatika pada dua bilangan yang diberikan oleh user 
+melalui command line menggunakan bahasa pemrograman Java.
+
+Cara Kerja
+Program ini akan mengeksekusi method main() yang akan memeriksa jumlah argumen yang diberikan oleh user. 
+Jika jumlah argumen tidak sama dengan 2, program akan mencetak pesan error dan dihentikan. Jika jumlah argumen sama dengan 2, program akan mengubah argumen yang diberikan dalam bentuk string menjadi bilangan integer menggunakan method Integer.parseInt(), lalu melakukan operasi aritmatika penjumlahan, pengurangan, perkalian, dan pembagian pada kedua bilangan tersebut. Hasil operasi tersebut akan dicetak ke layar menggunakan method System.out.println().
+
+Cara Penggunaan
+1. Pastikan sudah terinstall Java Development Kit (JDK) pada komputer Anda.
+2. Simpan kode program di atas dalam sebuah file dengan ekstensi .java (misalnya OperasiAritmatik.java).
+3. Buka terminal/command prompt dan masuk ke direktori tempat file program disimpan.
+4. Compile program menggunakan perintah javac OperasiAritmatik.java.
+5. Jalankan program dengan perintah java OperasiAritmatik argumen1 argumen2.
+6. Argumen yang diberikan harus berupa dua bilangan integer yang akan dilakukan operasi aritmatika.
+7. Hasil operasi aritmatika akan dicetak ke layar.
 
 
+Lisensi
 
-Program Operasi Aritmatik
-
-Program ini menerima dua argumen bilangan dari command line dan melakukan operasi aritmatika dasar pada kedua bilangan tersebut. Hasil operasi tersebut dicetak ke layar.
-
-Cara Menjalankan Program
-Pastikan sudah terinstall JDK (Java Development Kit) di komputer Anda.
-
-Buka terminal atau command prompt.
-
-Masuk ke direktori tempat file program berada.
-
-Penjelasan Kode :
-
-1. public class OperasiAritmatik : Mendefinisikan kelas OperasiAritmatik.
-2. public static void main(String[] args) : Metode utama yang akan dieksekusi oleh JVM.
-3. if (args.length != 2) : Pemeriksaan apakah jumlah argumen yang diberikan sama dengan 2. Jika tidak sama dengan 2, maka akan dicetak pesan error dan program akan dihentikan menggunakan perintah return.
-4. int num1 = Integer.parseInt(args[0]); : Mengubah string yang mewakili bilangan menjadi bilangan integer menggunakan metode parseInt() dari kelas Integer.
-5. int num2 = Integer.parseInt(args[1]); : Mengubah string yang mewakili bilangan menjadi bilangan integer menggunakan metode parseInt() dari kelas Integer.
-5. int sum = num1 + num2; : Melakukan operasi penjumlahan pada dua bilangan tersebut. Hasil operasi disimpan pada variabel sum.
-6. int difference = num1 - num2; : Melakukan operasi pengurangan pada dua bilangan tersebut. Hasil operasi disimpan pada variabel difference.
-7. int product = num1 * num2; : Melakukan operasi perkalian pada dua bilangan tersebut. Hasil operasi disimpan pada variabel product.
-8. int quotient = num1 / num2; : Melakukan operasi pembagian pada dua bilangan tersebut. Hasil operasi disimpan pada variabel quotient.
-9. System.out.println("sum = " + sum); : Mencetak hasil operasi penjumlahan ke layar.
-10. System.out.println("difference = " + difference); : Mencetak hasil operasi pengurangan ke layar.
-11. System.out.println("product = " + product); : Mencetak hasil operasi perkalian ke layar.
-12. System.out.println("quotient = " + quotient); : Mencetak hasil operasi pembagian ke layar.
+Program ini dibuat oleh [nama Anda] dan dibagikan secara gratis dan terbuka di bawah lisensi [nama lisensi].
+ Anda diperbolehkan untuk menggunakan, mengubah, dan mendistribusikan program ini dengan syarat menyertakan 
+kredit kepada [nama Anda] sebagai pembuat asli program ini. Program ini disediakan tanpa jaminan apapun dan pengguna bertanggung jawab penuh atas penggunaan program ini.

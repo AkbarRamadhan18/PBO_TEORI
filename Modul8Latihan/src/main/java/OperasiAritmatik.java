@@ -13,7 +13,7 @@ public class OperasiAritmatik {
         //kita memeriksa apakah jumlah argumen yang diberikan sama dengan 2. Jika tidak sama dengan 2, 
         //maka akan dicetak pesan error dan program akan dihentikan menggunakan perintah return.
         if (args.length != 2) {
-            System.out.println("Operasi: java Operasi Aritmatika <nomor1> <nomor2>");
+            System.out.println("Operasi: java Operasi Aritmatika <num1> <num2>");
             return;
         }
         
